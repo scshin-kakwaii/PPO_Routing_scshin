@@ -17,7 +17,7 @@ def run(opts):
 
     # ================== CẤU HÌNH CHO BÀI TOÁN ==================
     opts.problem = 'routing'
-    opts.graph_size = 20 # Số lượng bus stops
+    opts.graph_size = 50 # Số lượng bus stops
     opts.epoch_size = 1280
     opts.batch_size = 128
     opts.val_dataset = None
